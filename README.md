@@ -6,6 +6,7 @@
 [google](http://google.com)
 ```javascript
 if(true)
-{console.log('Hej verden');
+{console.log('Hej');
 }
 ```
+ljhkbguiyhb

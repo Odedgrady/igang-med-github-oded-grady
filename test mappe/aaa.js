@@ -232,15 +232,40 @@
 // var nyTekst = gammelTekst.substr(15, 6); //15=start punkt, 6= antal karakterer
 // console.log(nyTekst);
 
-var profil = function (data) {
-    return data[0] + " " + data[1] + ":/nFødt " + data[2]; // Returnerer tekst-strengen "Peter Pedal: Født 1941"
-}
+// var profil = function (data) {
+//     return "Fornavn: "+ data[0] + "\nEfternavn: " + data[1] + "\nFødt: " + data[2]; // Returnerer tekst-strengen "Peter Pedal: Født 1941"
+// }
 
-var idol = ["Oded", "Grady", "21.03.1965"];
-console.log(profil(idol));
+// var idol = ["Oded", "Grady", "21.03.1965"];
+// console.log(profil(idol));
+
+// var tal = 2017;
+// var tal1 = 1965;
+// console.log(tal - tal1);
+
+
+// var mig = ["oded", "grady", "21.03.1965"];
+// console.log (mig[1] );
+
+var profiler = [
+    ["oded","grady", "1965"],
+    ["junus", "euro", "1989"],
+    ["muhammed", "yusuf", "1945"],
+    ["jan","markusen","1980"],
+]
+profiler.forEach(function(profiler){
+    console.log(profiler[1]);
+});
+// Definér funktionen hent_profil()  her
+//function 
+
+
+// Forsøger at hente profilen med index 0 (dvs. Oded's profil)
+//var en_profil = hent_profil (profiler, 0);
 
 
 
+//console.log();
 
 
 

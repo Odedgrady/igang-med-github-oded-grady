@@ -244,8 +244,8 @@
 // console.log(tal - tal1);
 
 
-// var mig = ["oded", "grady", "21.03.1965"];
-// console.log (mig[1] );
+var mig = ["oded", "grady", "21.03.1965"];
+console.log (mig[1] );
 
 var profiler = [
     ["oded","grady", "1965"],

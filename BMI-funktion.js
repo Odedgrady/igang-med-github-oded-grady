@@ -1,30 +1,30 @@
 // BMI Module (If/Else)
-// function bmi (height, weight){
-//     var tekst ="";
-//     var bmi = weight/(height / 100 * height / 100)
-//     if (bmi < 18.5){
-//         console.log("undervægtig")
-//     }else
-//     if (bmi < 24.9){
-//         console.log("normalvægtig")
-//     }else
-//     if (bmi < 29.9){
-//         console.log("overvægtig")
-//     }else
-//     if (bmi < 39.9){
-//         console.log("fedme")
-//     }else
-//     {
-//         console.log("sværfedme")
-//     }
-//     console.log(bmi);
-//     return (tekst) 
-// }
-// bmi(170, 75);
+function bmi (height, weight){
+    var tekst =""
+    var bmi = weight/(height / 100 * height / 100)
+    if (bmi < 18.5){
+        console.log("undervægtig")
+    }
+    else if (bmi < 24.9){
+        console.log("normalvægtig")
+    }else
+    if (bmi < 29.9){
+        console.log("overvægtig")
+    }else
+    if (bmi < 39.9){
+        console.log("fedme")
+    }else
+    {
+        console.log("sværfedme")
+    }
+    console.log(bmi);
+    return (tekst) 
+}
+bmi(170, 75);
 
 
 // BMI Module (Switch/Case)
-function bmi(height, weight) {
+function bmi(height, weight){
    var text = "";
    var bmi = weight / (height / 100 * height / 100)
    switch (true) {
